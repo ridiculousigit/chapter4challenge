@@ -1,4 +1,4 @@
-package binar.academy.chapter4challenge.database
+package binar.academy.chapter4challenge.database.useraccount
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
@@ -8,10 +8,10 @@ import androidx.room.Query
 @Dao
 interface UserDAO {
     @Query("SELECT * FROM user")
-    fun getAllUser(): List<User>
+    fun gotdataAccount(): List<User>
 
     @Query("SELECT * FROM user WHERE email = :email AND password = :password")
-    fun verifyUser(email : String, password : String): LiveData<User>
+    fun identifyAccount(email : String, password : String): LiveData<User>
 
     @Insert
     fun insertUser(user: User)

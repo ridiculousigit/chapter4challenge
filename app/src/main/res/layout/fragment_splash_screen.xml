@@ -7,14 +7,14 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_splash"
     android:padding="16dp"
-    tools:context=".view.SplashScreenFragment">
+    tools:context=".view.main.SplashScreenFragment">
 
     <TextView
         android:id="@+id/tvBrand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/marykate"
-        android:text="NAKAMA\nNOTES"
+        android:text="@string/title_apps"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="120sp"
@@ -35,8 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/header_apps" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-</FrameLayout>

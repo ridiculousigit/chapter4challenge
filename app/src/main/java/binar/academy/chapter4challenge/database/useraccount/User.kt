@@ -1,4 +1,4 @@
-package binar.academy.chapter4challenge.database
+package binar.academy.chapter4challenge.database.useraccount
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo
@@ -10,11 +10,11 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 data class User(
     @PrimaryKey(autoGenerate = true)
-    val id: Int,
+        val id: Int,
     @ColumnInfo(name = "username")
-    val username : String,
+        val username : String,
     @ColumnInfo(name = "email")
-    val email : String,
+        val email : String,
     @ColumnInfo(name = "password")
-    val password : String
+        val password : String
 ) : Parcelable

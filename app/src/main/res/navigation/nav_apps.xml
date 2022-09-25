@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashScreenFragment"
-        android:name="binar.academy.chapter4challenge.view.SplashScreenFragment"
+        android:name="binar.academy.chapter4challenge.view.main.SplashScreenFragment"
         android:label="fragment_splash_screen"
         tools:layout="@layout/fragment_splash_screen" >
         <action
@@ -19,25 +19,32 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="binar.academy.chapter4challenge.view.LoginFragment"
+        android:name="binar.academy.chapter4challenge.view.main.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_loginFragment_to_registerFragment"
-            app:destination="@id/registerFragment" />
+            app:destination="@id/registerFragment"
+            app:popEnterAnim="@anim/nav_default_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="binar.academy.chapter4challenge.view.RegisterFragment"
+        android:name="binar.academy.chapter4challenge.view.main.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
             android:id="@+id/action_registerFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
+            app:destination="@id/loginFragment"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="binar.academy.chapter4challenge.view.HomeFragment"
+        android:name="binar.academy.chapter4challenge.view.main.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -52,16 +59,16 @@
     </fragment>
     <fragment
         android:id="@+id/addDialogFragment"
-        android:name="binar.academy.chapter4challenge.view.AddDialogFragment"
+        android:name="binar.academy.chapter4challenge.view.crud.CreateDialogFragment"
         android:label="fragment_add_dialog"
-        tools:layout="@layout/fragment_add_dialog" >
+        tools:layout="@layout/fragment_create_dialog" >
         <action
             android:id="@+id/action_addDialogFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/updateDialogFragment"
-        android:name="binar.academy.chapter4challenge.view.UpdateDialogFragment"
+        android:name="binar.academy.chapter4challenge.view.crud.UpdateDialogFragment"
         android:label="fragment_update_dialog"
         tools:layout="@layout/fragment_update_dialog" >
         <action
