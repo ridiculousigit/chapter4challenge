@@ -1,4 +1,4 @@
-package binar.academy.chapter4challenge.database.useraccount
+package binar.academy.chapter4challenge.room.useraccount
 
 import android.os.Parcelable
 import androidx.room.ColumnInfo

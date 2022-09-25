@@ -1,4 +1,4 @@
-package binar.academy.chapter4challenge.database.notelist
+package binar.academy.chapter4challenge.room.notelist
 
 import androidx.room.*
 

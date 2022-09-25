@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.ViewModelProvider
-import binar.academy.chapter4challenge.database.notelist.Notes
+import binar.academy.chapter4challenge.room.notelist.Notes
 import binar.academy.chapter4challenge.databinding.FragmentCreateDialogBinding
 import binar.academy.chapter4challenge.viewmodel.NoteViewModel
 

@@ -14,7 +14,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import binar.academy.chapter4challenge.R
 import binar.academy.chapter4challenge.adapter.NotesAdapter
-import binar.academy.chapter4challenge.database.notelist.Notes
+import binar.academy.chapter4challenge.room.notelist.Notes
 import binar.academy.chapter4challenge.databinding.FragmentHomeBinding
 import binar.academy.chapter4challenge.view.crud.CreateDialogFragment
 import binar.academy.chapter4challenge.view.crud.UpdateDialogFragment

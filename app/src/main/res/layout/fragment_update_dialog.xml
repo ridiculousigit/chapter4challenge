@@ -6,7 +6,7 @@
     <data>
         <variable
             name="pastNotes"
-            type="binar.academy.chapter4challenge.database.notelist.Notes" />
+            type="binar.academy.chapter4challenge.room.notelist.Notes" />
     </data>
 
     <androidx.cardview.widget.CardView

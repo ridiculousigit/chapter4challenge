@@ -11,7 +11,7 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import binar.academy.chapter4challenge.R
-import binar.academy.chapter4challenge.database.useraccount.User
+import binar.academy.chapter4challenge.room.useraccount.User
 import binar.academy.chapter4challenge.databinding.FragmentRegisterBinding
 import binar.academy.chapter4challenge.viewmodel.UserViewModel
 

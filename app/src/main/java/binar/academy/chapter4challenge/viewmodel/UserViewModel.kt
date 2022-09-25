@@ -4,8 +4,8 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import binar.academy.chapter4challenge.database.NotesDatabase
-import binar.academy.chapter4challenge.database.useraccount.User
+import binar.academy.chapter4challenge.room.NotesDatabase
+import binar.academy.chapter4challenge.room.useraccount.User
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
 

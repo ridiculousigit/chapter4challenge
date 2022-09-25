@@ -5,7 +5,7 @@
     <data>
         <variable
             name="notesData"
-            type="binar.academy.chapter4challenge.database.notelist.Notes" />
+            type="binar.academy.chapter4challenge.room.notelist.Notes" />
 
     </data>
 

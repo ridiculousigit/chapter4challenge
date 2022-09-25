@@ -3,7 +3,7 @@ package binar.academy.chapter4challenge.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import binar.academy.chapter4challenge.database.notelist.Notes
+import binar.academy.chapter4challenge.room.notelist.Notes
 import binar.academy.chapter4challenge.databinding.NotesItemBinding
 
 class NotesAdapter : RecyclerView.Adapter<NotesAdapter.ViewHolder>() {

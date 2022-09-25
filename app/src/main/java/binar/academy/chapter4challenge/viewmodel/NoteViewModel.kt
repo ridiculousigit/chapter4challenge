@@ -3,8 +3,8 @@ package binar.academy.chapter4challenge.viewmodel
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import binar.academy.chapter4challenge.database.notelist.Notes
-import binar.academy.chapter4challenge.database.NotesDatabase
+import binar.academy.chapter4challenge.room.notelist.Notes
+import binar.academy.chapter4challenge.room.NotesDatabase
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
