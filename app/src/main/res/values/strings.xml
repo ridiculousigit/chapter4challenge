@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">chapter4challenge</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id_notes_example"><b>ID : </b>Customize</string>
+    <string name="title_notes_example"><b>Title : </b>Deskmat Design</string>
+    <string name="header_notes_example">Notes #1</string>
+</resources>
